@@ -1,3 +1,17 @@
+document.addEventListener('DOMContentLoaded', function() {
+	const triggerBox = document.querySelector('.work-box-front');
+	const targetBox = document.querySelector('.work-box-inner');
+  
+	triggerBox.addEventListener('mouseenter', function() {
+	  targetBox.style.transform = 'rotateY(180deg)';
+	});
+  
+	triggerBox.addEventListener('mouseleave', function() {
+	  targetBox.style.transform = 'rotateY(0deg)';
+	});
+  });
+  
+
 (function ($) {
 	"use strict";
 	var nav = $('nav');
