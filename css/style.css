@@ -1332,6 +1332,39 @@ footer .credits a {
   color: #ffffff;
 }
 
+.certificate-border {
+  border: 4px solid #007bff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.certificate-border:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+.btn-outline-primary {
+  background-color: white;
+  border-color: #007bff;
+  color: #007bff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: white;
+}
+
 
 
 @media (min-width: 992px) {
